@@ -10077,6 +10077,38 @@ header.masthead h1 {
   }
 }
 
+header.kickboxing {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%), url("../assets/img/bg-kickboxing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.kickboxing h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.kickboxing {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.kickboxing p {
+    font-size: 1.15rem;
+  }
+  header.kickboxing h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.kickboxing h1 {
+    font-size: 3.5rem;
+  }
+}
+
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
   max-width: 1920px;
 }
